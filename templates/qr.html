@@ -1,0 +1,8 @@
+{% include 'header.html' %}
+<div class="d-flex justify-content-center ">
+<img src="{{file}}" alt="">
+</div>
+<div class='d-flex  justify-content-center mt-4'>
+<a href="{{url_for('password', file=fn)}}"><button class='btn btn-warning'> Decode </button></a>
+</div>
+{% include 'footer.html' %}

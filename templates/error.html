@@ -1,0 +1,11 @@
+{% include 'header.html' %}
+
+{% if error == None %}
+    <p></p>
+    {% else %}
+    <div class='d-flex  justify-content-center mt-4'>
+        <p style='color: red'>{{error}}</p>
+    </div>
+{% endif %}
+
+{% include 'footer.html' %}

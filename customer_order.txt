@@ -1,0 +1,5 @@
+Customer: meeka
+Order: iced coffee
+Table Number: 3
+Quantity: 1
+Price: $2.25.

@@ -1,0 +1,378 @@
+ {% include  'header.html' %}
+
+<div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+        {% if logged_in %}
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">Welcome, {{username}}</h1>
+		    <div class="mb-2">
+		    	
+		    </div>
+        {% else %}
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">We Love <br>Delicious Coffee! <br> and <br> Fast WiFi</h1>
+		    <div class="mb-2">
+		    	
+		    </div>
+        {% endif %}
+		    <ul class="hero-info list-unstyled d-flex text-center mb-0">
+		    	<li class="border-right">
+		    		<span class="lnr lnr-rocket"></span>
+		    		<h5>
+		    			Expertly Brewed
+		    		</h5>
+		    	</li>
+		    	<li class="border-right">
+		    		<span class="lnr lnr-leaf"></span>
+		    		<h5>
+		    			Fresh Coffee
+		    		</h5>
+		    	</li>
+		    	<li class="">
+		    		<span class="lnr lnr-bubble"></span>
+		    		<h5>
+		    			24/7 WiFi
+		    		</h5>
+		    	</li>
+		    </ul>
+
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <div class="item">
+			    	<img class="img-fluid" src="/static/img/iced-coffee.webp" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="/static/img/cappucino.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="/static/img/machiato.jpg" alt="">
+			    </div>
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>		<!-- Welcome Section -->
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(/static/img/mocha.jpg);">
+                    
+                </div>
+                <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                    <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                            About
+                        </span>
+                        <h2>
+                            Welcome to Coffee Lab
+                        </h2>
+                    </div>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Welcome Section -->		<!-- Special Dishes Section -->
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Specialties
+                </span>
+                <h2>
+                    Special Offers
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Exotic</span><br>Jamaica Blue Mountain Coffee</h3>
+                        <p class="pt-3">The flavor of Jamaica Blue Mountain coffee is said to be refined and mild with an extremely pleasant sweetness that verges on creamy. Tones of chocolate appear in the complexity of the coffee which also exhibits a smooth yet bright acidity and almost a total lack of any bitterness.</p>
+                        <h3 class="special-dishes-price">$25.00</h3>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="/static/img/jamaica-blue-coffee" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="/static/img/kona.png" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Wild</span><br>Kona Coffee</h3>
+                        <p class="pt-3">The traditional Kona Coffee taste profile is light, sweet and fruity with hints of spice or nuts. As Kona Coffee is roasted, it first picks up flavors of sweetness and fruit.</p>
+                        <h3 class="special-dishes-price">$10.00</h3>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Special Dishes Section -->		<!-- Menu Section -->
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Specialties
+                        </span>
+                        <h2>
+                            Our Menu
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/iced-coffee.webp" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Iced Coffee</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.25</h4>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/Cafe-Au-Lait-001.webp" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Cafe Au Lait</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.70</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/machiato.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Machiato</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$3.90</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/epsresso.webp" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Espresso</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.70</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/d-espresso.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Double Espresso</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.90</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/latte.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Cafe Latte</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.75</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/mocha.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Mocha</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$3.50</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/cappucino.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Cappuccino</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$1.47</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="/static/img/americano.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Americano</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$2.62</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of menu Section -->
+		<!-- Reservation Section -->
+<section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(/static/img/reservation-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section-content bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <h2>
+                            Order Now
+                        </h2>
+                        <p class='subheading'> And Get Your Fast WiFi </p>
+                    </div>
+                    {% if logged_in %}
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="order" name="order" placeholder="Your Order">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="tableNumber" name="tableNumber" placeholder="Table Number">
+                            </div>
+                            
+
+                
+
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="amount" name="amount" placeholder="Number of Cups">
+                            </div>
+                 
+                           
+                            <div class="col-md-12 text-center">
+                                <a href="{{url_for('home')}}"><button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Order</button></a>
+                            </div>
+                        </div>
+                    </form>
+                    {% else %}
+                    <div class='d-flex  justify-content-center mt-4'>
+                    <a href="{{url_for('login')}}"><button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Login to Order</button></a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+{% if current_user.id == 1 %}
+<div class='d-flex  justify-content-center mt-4'>
+    <a href="{{url_for('delete')}}"><button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Delete User</button></a>
+    </div
+{% endif %}
+<!-- End of Reservation Section -->		{% include 'footer.html' %}	</div>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="/static/vendor/bootstrap/popper.min.js"></script>
+	<script src="/static/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="/static/vendor/select2/select2.min.js "></script>
+	<script src="/static/vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="/static/vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="/static/js/app.min.js "></script>
+</body>
+</html>
